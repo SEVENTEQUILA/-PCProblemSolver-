@@ -1,0 +1,41 @@
+name: Bug Report
+description: 提交 bug 时请填写以下信息
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 描述问题
+      description: 请清晰简洁地描述遇到的问题。
+      placeholder: 例如：点击按钮后没有反应。
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 使用的版本
+      description: 你使用的软件版本或 git commit hash。
+      placeholder: v1.2.3 或 abc1234
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请提供能复现问题的具体步骤。
+      placeholder: |
+        1. 克隆仓库
+        2. 运行 `python script.py`
+        3. 点击按钮
+        4. 程序崩溃
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志输出 / 错误信息
+      description: 请粘贴控制台中的报错信息或日志。
+      render: shell
