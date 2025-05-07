@@ -1,5 +1,5 @@
 # PCProblemSolver 
-本项目主要用于搜集和解决使用windows时不太常见或不易解决的问题，如果您要补充或提问，请[提交](https://github.com/ruanyf/weekly/issues)。解决方案仅供参考，不具有唯一性和通用性。
+本项目主要用于搜集和解决使用windows时不太常见或不易解决的问题，如果您要补充或提问，请[提交issue](https://github.com/ruanyf/weekly/issues)。解决方案仅供参考，不具有唯一性和通用性。
 
 <br>
 <br>
